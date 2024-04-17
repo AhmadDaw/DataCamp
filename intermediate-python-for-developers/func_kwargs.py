@@ -5,7 +5,7 @@ def concat(**kwargs):
   result = ""
   
   # Iterate over the Python kwargs
-  for kwarg in kwargs:
+  for kwarg in kwargs.values():
     result += " " + kwarg
   return result
 
