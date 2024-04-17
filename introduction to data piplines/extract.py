@@ -8,6 +8,3 @@ def extract():
     
     # Return the extracted DataFrame
     return raw_data
-    
-# Call the extract() function
-raw_sales_data = extract()
