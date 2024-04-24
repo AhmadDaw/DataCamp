@@ -31,7 +31,7 @@ print("=========== consistent pass ===========")
 print(consistent_pass)
 print("===========")
 
-
+# age inconsistent check
 # Create the data
 data = {
     'user_id': ['user1', 'user2', 'user3', 'user4', 'user5', 'user6'],
