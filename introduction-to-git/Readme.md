@@ -1,6 +1,6 @@
-# Introduction to Git (Datacamp)
+## Introduction to Git (Datacamp)
 
-## Find Git Version:
+### Find Git Version:
 `git --version`
 
 ## Add a file to staging area:
