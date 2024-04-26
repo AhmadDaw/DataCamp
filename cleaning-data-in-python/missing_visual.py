@@ -42,4 +42,4 @@ banking_sorted = banking.sort_values(by='age')
 msno.matrix(banking_sorted)
 plt.show()
 
-# missing values are yound investors
+# missing values are young investors
