@@ -30,3 +30,6 @@
 
 ### Show commit history:
 `git log`
+
+### Viewing changes in a specific commit:
+`git show HEAD~2`
