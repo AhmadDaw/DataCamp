@@ -24,5 +24,9 @@
 ### Compare the differences between all files in staging area and last commit:
 `git diff -r HEAD`
 
+  #### `HEAD` Last Commit
+  #### `HEAD~1` Second most recent Commit
+  #### `HEAD~2` Third most recent Commit
+
 ### Show commit history:
 `git log`
