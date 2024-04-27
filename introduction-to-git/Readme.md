@@ -33,3 +33,10 @@
 
 ### Viewing changes in a specific commit:
 `git show HEAD~2`
+
+### Compare 2 commits:
+`git diff HEAD~2 HEAD~3`
+
+### Show chnges line by line:
+`git annotate file.txt`
+
