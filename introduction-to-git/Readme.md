@@ -40,3 +40,8 @@
 ### Show chnges line by line:
 `git annotate file.txt`
 
+### Remove file from staging area:
+`git reset HEAD file.txt`
+
+### Remove all files from staging area:
+`git reset HEAD`
