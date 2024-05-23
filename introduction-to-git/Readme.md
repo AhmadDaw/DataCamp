@@ -45,3 +45,9 @@
 
 ### Remove all files from staging area:
 `git reset HEAD`
+
+### Undo changes to unstaged file:
+`git checkout -- file.txt`
+
+### Undo changes to all unstaged files:
+`git checkout .`
