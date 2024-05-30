@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-planes=pd.read_csv('')
+planes=pd.read_csv('planes.csv')
 # Count the number of missing values in each column
 print(planes.isna().sum())
 
