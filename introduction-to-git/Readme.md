@@ -70,6 +70,6 @@
 ### change user name
 `git config --global user.name 'John Smith'`
 
-### using an alias
+### using an alias ci for the command `'commit -m'`
 `git config --global alias.ci 'commit -m'`
 
