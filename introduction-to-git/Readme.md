@@ -51,3 +51,22 @@
 
 ### Undo changes to all unstaged files:
 `git checkout .`
+
+
+
+## Chapter 3
+
+### List settings all types
+`git config --list`
+
+### List settings specific type
+`git config --list --global`
+`git config --list --local`
+`git config --list --system`
+
+### change email address
+`git config --global user.email johnsmith@datacamp.com`
+
+### change user name
+`git config --global user.name 'John Smith'`
+
