@@ -60,13 +60,16 @@
 `git config --list`
 
 ### List settings specific type
--`git config --list --global`
--`git config --list --local`
--`git config --list --system`
+- `git config --list --global`
+- `git config --list --local`
+- `git config --list --system`
 
 ### change email address
 `git config --global user.email johnsmith@datacamp.com`
 
 ### change user name
 `git config --global user.name 'John Smith'`
+
+### using an alias
+`git config --global alias.ci 'commit -m'`
 
