@@ -52,6 +52,17 @@
 ### Undo changes to all unstaged files:
 `git checkout .`
 
+### Restrict the number of displayed commits 
+`git log -3`
+
+### Look at commit history for one file
+`git log -3 file.txt`
+
+### Restrict the number of displayed commits 
+`git log -3`
+
+### Look at commit history for one file
+`git log -3 file.txt`
 
 
 ## Chapter 3
