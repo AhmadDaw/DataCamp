@@ -58,11 +58,11 @@
 ### Look at commit history for one file
 `git log -3 file.txt`
 
-### Restrict the number of displayed commits 
-`git log -3`
+### Show commits since a date
+`git log -since="Apr 2 2022"`
 
-### Look at commit history for one file
-`git log -3 file.txt`
+### Show commits between two dates
+`git log -since="Apr 2 2022" --until="Apr 11 2022"`
 
 
 ## Chapter 3
