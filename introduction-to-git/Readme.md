@@ -64,9 +64,9 @@
 ### Show commits between two dates
 `git log -since="Apr 2 2022" --until="Apr 11 2022"`
 
-### Revert file to a version from a specific commit
-`git checkout dc9d8fac file.txt"`
-
+### Revert file to a version from a specific commit (2 ways)
+- `git checkout dc9d8fac file.txt"`
+- `git checkout HEAD~1 file.txt"`
 
 ## Chapter 3
 
