@@ -65,8 +65,19 @@
 `git log -since="Apr 2 2022" --until="Apr 11 2022"`
 
 ### Revert file to a version from a specific commit (2 ways)
-- `git checkout dc9d8fac file.txt"`
-- `git checkout HEAD~1 file.txt"`
+- `git checkout dc9d8fac file.txt`
+- `git checkout HEAD~1 file.txt`
+
+### Revert all files (repo) to a version from a specific commit (2 ways)
+- `git checkout dc9d8fac`
+- `git checkout HEAD~1`
+
+### See what files are not being tracked
+`git clean -n`
+
+### Delete files are not being tracked (can't be undone)
+`git clean -f`
+
 
 ## Chapter 3
 
