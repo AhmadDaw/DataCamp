@@ -98,3 +98,21 @@
 ### using an alias ci for the command `'commit -m'`
 `git config --global alias.ci 'commit -m'`
 
+
+
+## Chapter 4
+
+### Create a new Repo
+- `git init folder-name`
+- `cd folder-name`
+- `git status`
+
+### Clone a Repo locally
+`git clone /home/ahmad/repo`
+
+### Clone a Repo remotly
+`git clone https://datacamp.com/project`
+
+### Show the name of a remotly cloned repo 
+`git remote`
+
