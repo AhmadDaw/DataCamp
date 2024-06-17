@@ -110,9 +110,17 @@
 ### Clone a Repo locally
 `git clone /home/ahmad/repo`
 
+### Clone a Repo locally and name it repo-name
+`git clone /home/ahmad/repo repo-name`
+
 ### Clone a Repo remotly
 `git clone https://datacamp.com/project`
 
 ### Show the name of a remotly cloned repo 
 `git remote`
 
+### Show the name of a remotly cloned repo with more information
+`git remote -v`
+
+### Add a Repo remotly
+`git remote add repo-name https://datacamp.com/project`
