@@ -124,3 +124,22 @@
 
 ### Add a Repo remotly
 `git remote add repo-name https://datacamp.com/project`
+
+### Fetching from a remote main branch
+`git fetch origin main`
+
+### Fetching from a remote specific branch (report)
+`git fetch origin report`
+
+### Syncronize a localy repo with a remote repo
+`git merge origin main`
+
+### Pulling (fetch + merge) from a remote repo to a local repo
+`git pull origin main`
+
+### Comapre local repo with remote repo
+`git diff origin main`
+
+### Pushing from a local repo (main) to a remote repo (origin)
+`git push origin main`
+
