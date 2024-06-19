@@ -101,7 +101,7 @@
 ### Identify branches
 `git branch`
 
-### Create branche
+### Create branch
 `git checkout -b branch-name`
 
 ### Compare 2 branches
