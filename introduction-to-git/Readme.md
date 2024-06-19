@@ -98,7 +98,14 @@
 ### using an alias ci for the command `'commit -m'`
 `git config --global alias.ci 'commit -m'`
 
+### Identify branches
+`git branch`
 
+### Create branche
+`git checkout -b branch-name`
+
+### Compare 2 branches
+`git diff main report`
 
 ## Chapter 4
 
