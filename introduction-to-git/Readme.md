@@ -101,8 +101,14 @@
 ### Identify branches
 `git branch`
 
-### Create branch
+### Create new branch
 `git checkout -b branch-name`
+
+### Compare 2 branches
+`git diff main report`
+
+### Merge 2 branches (source: branch-name) (destination: main)
+`git merge branch-name main`
 
 ### Compare 2 branches
 `git diff main report`
